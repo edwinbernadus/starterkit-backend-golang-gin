@@ -18,4 +18,4 @@ RUN go build -o one
 
 EXPOSE 8080
 
-ENTRYPOINT ["one"]
+ENTRYPOINT ["./one"]
